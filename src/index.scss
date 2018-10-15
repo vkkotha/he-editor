@@ -1,0 +1,11 @@
+@import "~grapesjs/dist/css/grapes.min.css";
+
+body {
+  padding: 0;
+  margin: 5px;
+}
+
+.editor_wrapper {
+  height: calc(100vh - 10px);
+  display: block;
+}
