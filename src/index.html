@@ -5,9 +5,24 @@
     <title>Html Editor</title>
   </head>
   <body>
+    <div class="panel__top">
+      <div class="panel__basic-actions"></div>
+    </div>
     <div class="editor_wrapper">
-      <div id="editor">
-        <h1>Hello Editor</h1>
+      <div class="editor_canvas">
+          <div id="editor">
+              <Row style="width:100%;display:block;">
+                  <table style="width:700px;border:0px;margin:0 auto;">
+                    <tr><td>
+                      <h1>Hello Editor</h1>
+                      <span>Some text here</span>
+                    </td></tr>
+                  </table>
+              </Row>
+          </div>
+      </div>
+      <div class="panel__right">
+          <div class="layers-container"></div>
       </div>
     </div>
   </body>

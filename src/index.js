@@ -1,6 +1,6 @@
 import './index.scss';
-import './heeditor';
+import editor from './heeditor';
 
-//editor.render();
+editor.render();
 
 
